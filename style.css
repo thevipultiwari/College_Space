@@ -1,0 +1,274 @@
+@import url('http://fonts.cdnfonts.com/css/anurati');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://www.galaxyeduworld.com/storage/college_page/5dba6856de2ea_1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 50px 50px;
+
+}
+.logo{
+    font-family: 'Anurati', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    margin-left: 55px;
+}
+.logo1{
+    font-family: 'Anurati', sans-serif;
+    font-size: 50px;
+    color: #000;
+    margin-left: 55px;
+}
+.navbar{
+    width: 99%;
+    margin: 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;;
+    color: #fff;
+    font-family:  sans-serif;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0099ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar1{
+    width: 99%;
+    margin: 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar1 ul li a{
+    text-decoration: none;;
+    color: #000;
+    font-family:  sans-serif;
+}
+.navbar1 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0099ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar1 ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #0099ff;
+}
+.title{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: sans-serif;
+    color: #dff;
+    font-size: 25px;
+}
+.content button{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px solid #00ff33;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #0099ff 50%);
+    background-size: 200%;
+    background-position:right;
+    transition: 0.5s;
+}
+.content button:hover{
+    color: #000;
+    background-position: left;
+}
+
+.dropdown-menu a{
+    color: #000!important;
+}
+.dropdown-menu a:hover{
+    background: #0099ff;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+}
+.container h1{
+    margin: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #0099ff;
+}
+.container .row{
+    margin-bottom: 100px;
+}
+.container p{
+    color: gray;
+    font-size: 20px;
+}
+
+.details{
+    width: 80%;
+    height:100%;
+    background: #f0f1f3;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+form h1{
+    font-family: sans-serif
+}
+.input-group{
+    margin-bottom: 50px;
+    position: relative;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0099ff;
+    color: #0099ff;
+    outline: 0;
+    background: transparent;
+    font-size: 15px;
+}
+.input-group label{
+    height: 100%;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    padding: 10px;
+    color: #0099ff;
+    cursor: text;
+    transition: 0.5s;
+}
+input:focus~label,input:valid~label{
+    top: -35px;
+    font-size: 13px;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.rows input-groupt{
+    width: 80%;
+}
+.table{
+    width: 80%!important;
+    margin: 0 auto;
+}
+.marks{
+    width: 80%;
+    margin: 0 auto;
+    font-family: georgia;
+    align-items: center;
+    text-align: center;
+}
+.marks h1{
+    font-size: 50px;
+    color: #0099ff;
+}
+.marks p{
+    color: #000;
+    letter-spacing: 5px;
+}
+.table{
+    margin: 0 auto;
+    
+}
+table tr th, table tr td{
+    background: #3B3B3B;
+    color: #FFF;
+    padding: 7px 4px;
+    text-align: left;
+    text-align: center;
+    
+}
+table tr td{ 
+    background: #FFF;
+    color: #47433F;
+    border-top: 1px solid #FFF;
+}
+.scroll{
+    height: 350px;
+    overflow-y: scroll;
+}
+.h1{
+    font-weight: bold;
+    color: #0099ff;
+}
+
+#footer{
+    margin-top: 60px;
+    background: #0099ff;
+    color: green!important;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+#footer p{
+    color: #000;
+}
+#footer a{
+    color: black;
+}
